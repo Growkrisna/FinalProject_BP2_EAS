@@ -1,8 +1,8 @@
 public class Node {
+    Transaksi data;
     Node next;
-    produk data;
 
-    public Node(produk data) {
+    public Node(Transaksi data) {
         this.data = data;
         this.next = null;
     }
